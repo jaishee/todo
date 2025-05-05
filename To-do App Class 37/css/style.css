@@ -1,0 +1,40 @@
+.allPost{
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.error{
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: red;
+}
+.nameError{
+    color: red;
+}
+.captionError{
+    color: red;
+}
+.formOne{
+    padding: 20px;
+    background-color: rgb(233, 214, 189);
+    justify-content: center;
+    width: 500px;
+}
+.heading{
+    text-align: center;
+}
+.updateBtn{
+    display: none;
+}
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  button.btn:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+    transition: all 0.2s ease-in-out;
+  }
